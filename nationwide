@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Room - Hotel Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Love Room</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h2>24 Hours Full Accommodation</h2>
+        <p>Book your luxury stay with us today.</p>
+        <button onclick="window.location.href='booking.html'">Book Now</button>
+    </section>
+    
+    <section id="rooms">
+        <h2>Our Rooms</h2>
+        <div class="room-container">
+            <div class="room">
+                <img src="room1.jpg" alt="Love Room">
+                <h3>Love Room</h3>
+                <p>Includes the following amenities:</p>
+                <ul>
+                    <li>Complimentary City Pick Up / Drop Off Service</li>
+                    <li>Room Jacuzzi</li>
+                    <li>Complimentary Wi-Fi</li>
+                    <li>24-Hour Room Service</li>
+                    <li>Complimentary Meals (Breakfast, Lunch, Dinner)</li>
+                    <li>Custom-Stocked Fridge/ Mini-Bar</li>
+                    <li>Complimentary Movie Library</li>
+                    <li>Non-alcoholic and alcoholic drinks upon request</li>
+                    <li>Sex Chair</li>
+                    <li>Toys & Costumes for role play</li>
+                    <li>Toys & Costumes for foreplay</li>
+                    <li>Massage and spa upon request</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Love Room. All rights reserved.</p>
+    </footer>
+</body>
+</html>
